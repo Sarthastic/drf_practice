@@ -54,7 +54,7 @@ class colorserializer(serializers.ModelSerializer):
 class peopleserializer(serializers.ModelSerializer):
     color=colorserializer()
     color_info  = serializers.SerializerMethodField()
-    
+
     
     
     class Meta:

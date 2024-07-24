@@ -178,5 +178,3 @@ from .serializers import peopleserializer
 class peopleviewset(viewsets.ModelViewSet):  
     serializer_class=peopleserializer
     queryset =Person.objects.all()
-    
-    
